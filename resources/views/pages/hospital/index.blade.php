@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','Hospitals')
-@section('page-title', 'Federated States of Micronesia Medical Facility')
+@section('page-title', 'Vanuatu Medical Facility')
 
 @push('styles')
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -475,19 +475,19 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p class="p-modal text-justify">A Public Health Center (Pusat Kesehatan Masyarakat / Puskesmas) is a government-operated primary healthcare facility regulated by the Ministry of Health of the Republic of Federated States of Micronesia (Kementerian Kesehatan Republik Federated States of Micronesia), commonly referred to in English as the Federated States of Micronesian Ministry of Health (MOH), under national health service regulations. Puskesmas function as a first-level healthcare provider (Fasilitas Kesehatan Tingkat Pertama / FKTP) within Federated States of Micronesia’s health system and BPJS Kesehatan referral framework, it operates at the sub-district (kecamatan) level and serves as the backbone of community-based healthcare delivery. Puskesmas provides comprehensive primary care services, including promotive, preventive, curative, and rehabilitative care focusing on maternal and child health, immunization, and public health programs for the defined population it serves.</p>
+        <p class="p-modal text-justify">A Public Health Center (Pusat Kesehatan Masyarakat / Puskesmas) is a government-operated primary healthcare facility regulated by the Ministry of Health of the Republic of Vanuatu (Kementerian Kesehatan Republik Vanuatu), commonly referred to in English as the Vanuatun Ministry of Health (MOH), under national health service regulations. Puskesmas function as a first-level healthcare provider (Fasilitas Kesehatan Tingkat Pertama / FKTP) within Vanuatu’s health system and BPJS Kesehatan referral framework, it operates at the sub-district (kecamatan) level and serves as the backbone of community-based healthcare delivery. Puskesmas provides comprehensive primary care services, including promotive, preventive, curative, and rehabilitative care focusing on maternal and child health, immunization, and public health programs for the defined population it serves.</p>
 
         <p class="p-modal text-justify">
             Most Puskesmas are automatically BPJS-contracted as government facilities. Private clinics acting as FKTP must formally contract with BPJS to serve insured patients. BPJS participants generally must first access care at FKTP before being referred to a hospital, except in emergencies.
         </p>
 
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Federated States of Micronesia, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vanuatu, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Federated States of Micronesia Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vanuatu Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
 
         <p class="p-modal text-justify">
@@ -568,7 +568,7 @@
         <p class="p-modal text-justify">
             <strong>Public Health Center (PUSKESMAS) Role</strong>
             <ul>
-                <li>First-level entry point into Federated States of Micronesia’s healthcare system</li>
+                <li>First-level entry point into Vanuatu’s healthcare system</li>
                 <li>Primary gatekeeper in the BPJS referral system</li>
                 <li>Community health program implementation center</li>
                 <li>Preventive and promotive health service hub</li>
@@ -654,7 +654,7 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A secondary-level hospital regulated by the Ministry of Health of the Republic of Federated States of Micronesia (Kementerian Kesehatan Republik Federated States of Micronesia), commonly referred to in English as the Federated States of Micronesian Ministry of Health (MOH). Class C hospitals provide core specialist services in internal medicine, surgery, obstetrics, and pediatrics, managing common medical conditions across inpatient and outpatient settings.
+            A secondary-level hospital regulated by the Ministry of Health of the Republic of Vanuatu (Kementerian Kesehatan Republik Vanuatu), commonly referred to in English as the Vanuatun Ministry of Health (MOH). Class C hospitals provide core specialist services in internal medicine, surgery, obstetrics, and pediatrics, managing common medical conditions across inpatient and outpatient settings.
         </p>
         <p class="p-modal text-justify">
             Class C hospitals function primarily as a regency/city (kabupaten/kota) referral hospital, a Class C facility performs common surgical procedures, stabilizes emergency patients, and refers more complex or subspecialty cases to Class B or Class A hospitals. This classification applies to both public and private hospitals that meet the prescribed infrastructure, staffing, and service standards.
@@ -666,12 +666,12 @@
             Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            Note: BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Federated States of Micronesia, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            Note: BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vanuatu, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Federated States of Micronesia Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vanuatu Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -801,10 +801,10 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A Class A Hospital (Rumah Sakit Kelas A), regulated by the Ministry of Health of the Republic of Federated States of Micronesia (Kementerian Kesehatan Republik Federated States of Micronesia), commonly referred to in English as the Federated States of Micronesian Ministry of Health (MOH), represents the highest hospital classification in Federated States of Micronesia.
+            A Class A Hospital (Rumah Sakit Kelas A), regulated by the Ministry of Health of the Republic of Vanuatu (Kementerian Kesehatan Republik Vanuatu), commonly referred to in English as the Vanuatun Ministry of Health (MOH), represents the highest hospital classification in Vanuatu.
         </p>
         <p class="p-modal text-justify">
-            Class A hospitals function as national or apex referral centers within Federated States of Micronesia’s tiered healthcare and Badan Penyelenggara Jaminan Sosial (BPJS) referral system, provide the most comprehensive range of specialist and subspecialist services, supported by advanced diagnostic, therapeutic, critical care capability, and large bed capacity. Serving as national and/or top-tier referral centers within the healthcare system.
+            Class A hospitals function as national or apex referral centers within Vanuatu’s tiered healthcare and Badan Penyelenggara Jaminan Sosial (BPJS) referral system, provide the most comprehensive range of specialist and subspecialist services, supported by advanced diagnostic, therapeutic, critical care capability, and large bed capacity. Serving as national and/or top-tier referral centers within the healthcare system.
         </p>
         <p class="p-modal text-justify">
             Class A hospitals manage highly complex, multidisciplinary medical and surgical cases referred from Class B, C, and D hospitals, and frequently function as teaching and research institutions.
@@ -819,12 +819,12 @@
             Private Class A hospitals may or may not contract with BPJS. Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Federated States of Micronesia, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vanuatu, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Federated States of Micronesia Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vanuatu Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -1039,7 +1039,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <script>
 // === Inisialisasi Peta ===
 const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 6.9167, lng: 158.1667 },
+    center: { lat: -15.3767, lng: 166.9592 },
     zoom: 5,
     mapTypeId: 'roadmap',
     mapTypeControl: true,
@@ -1569,7 +1569,7 @@ function addHospitalMarkers(data) {
             <strong>Address:</strong>
                 ${h.address || 'N/A'}
                 ${h.city ? ', ' + h.city : ''}
-                ${h.provinces_region ? ', ' + h.provinces_region : ''}, Federated States of Micronesia <br>
+                ${h.provinces_region ? ', ' + h.provinces_region : ''}, Vanuatu <br>
         `;
 
         marker.addListener('click', () => {
@@ -1739,7 +1739,7 @@ combinedPanelDiv.innerHTML = `
                 @endforeach
             </select>
             <label>Facility Level:</label>
-            ${['Hospital','Clinic / Health Centre'].map(c => `
+            ${['National Referral Hospital','Regional Referral Hospital','Provincial Hospital','Clinic / Health Center'].map(c => `
             <label style="display:block;font-size:13px;margin-bottom:5px;">
                 <input type="checkbox" name="hospitalLevel" value="${c}">
                 ${c} (<span id="count-${c.replace(/\s+/g,'-')}">0</span>)

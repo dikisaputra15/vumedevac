@@ -146,7 +146,7 @@
                         <strong>Address:</strong>
                         {{ $police->location }},
                         {{ $city->city }},
-                        {{ $province->provinces_region }}, Federated States of Micronesia
+                        {{ $province->provinces_region }}, Vanuatu
                     </p>
                     <p>
                         <strong>Latitude:</strong> {{ $police->latitude }}

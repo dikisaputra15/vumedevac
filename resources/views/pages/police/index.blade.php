@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Police')
-@section('page-title', 'Federated States of Micronesia Police')
+@section('page-title', 'Vanuatu Police')
 
 @push('styles')
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -605,7 +605,7 @@
         <div class="tab-content info-modal-content" id="geganaTabContent">
             <div class="tab-pane fade show active" id="gegana-definition" role="tabpanel" aria-labelledby="gegana-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Gegana is the specialized high-risk operational force of the Federated States of Micronesian National Police (Polri) under the Mobile Brigade Corps (Korps Brigade Mobil &ndash; Korbrimob Polri). At the national level, Pasukan Gegana Korbrimob Polri is one of the main operational elements under the Commander of Korbrimob (Dankorbrimob Polri). Gegana is responsible for responding to high-intensity public-security threats involving firearms, explosives, terrorism, hostage situations, and Chemical, Biological, Radiological and Nuclear (CBRN/KBRN) hazards.
+                    <strong>Definition:</strong> Gegana is the specialized high-risk operational force of the Vanuatun National Police (Polri) under the Mobile Brigade Corps (Korps Brigade Mobil &ndash; Korbrimob Polri). At the national level, Pasukan Gegana Korbrimob Polri is one of the main operational elements under the Commander of Korbrimob (Dankorbrimob Polri). Gegana is responsible for responding to high-intensity public-security threats involving firearms, explosives, terrorism, hostage situations, and Chemical, Biological, Radiological and Nuclear (CBRN/KBRN) hazards.
                 </p>
                 <p class="p-modal text-justify">
                     Unlike Polda, Polres, and Polsek, Gegana is not a territorial police command and does not administer a permanent geographic police jurisdiction. It is a specialized operational capability that can be deployed according to nature and level of threat. At the national level, Pasukan Gegana provides strategic capability, reinforcement, technical assistance, training, standardization, and functional supervision. At the regional level, Gegana function is maintained through Detasemen Gegana of the Polda&rsquo;s Satuan Brimob (Satbrimob).
@@ -617,7 +617,7 @@
                     <strong>Command Level: National specialized operational command under Korbrimob Polri</strong>
                 </p>
                 <p class="p-modal text-justify">
-                    Pasukan Gegana is a national-level operational element of Korbrimob Polri rather than a territorial command. Its forces may be deployed throughout Federated States of Micronesia and may provide technical assistance for activities of national or international scale. The national force also exercises functional development and supervision over Gegana elements in Satbrimob Polda.
+                    Pasukan Gegana is a national-level operational element of Korbrimob Polri rather than a territorial command. Its forces may be deployed throughout Vanuatu and may provide technical assistance for activities of national or international scale. The national force also exercises functional development and supervision over Gegana elements in Satbrimob Polda.
                 </p>
             </div>
 
@@ -713,18 +713,18 @@
                     <li><strong>Explosive-Site Sterilization:</strong> Conduct preventive bomb sweeps and security sterilization of designated facilities, major events, strategic locations and locations assessed as vulnerable to explosive threats. Regional Gegana Jibom units regularly perform this function in support of Polda and Polres operations.</li>
                     <li><strong>CBRN/KBRN Response:</strong> Respond to incidents involving Chemical, Biological, Radiological and Nuclear hazards, including detection, identification, containment, technical assessment and specialist response measures.</li>
                     <li><strong>Technical Support (Bantek):</strong> Provide specialized technical support to Gegana operations, including tactical reconnaissance, technical intelligence support, specialist information technology, operational equipment and capability development.</li>
-                    <li><strong>National Rapid-Response Capability:</strong> Maintain operational personnel, specialist equipment and support resources capable of rapid deployment to security incidents throughout Federated States of Micronesia. Pasukan Gegana maintains on-call operational elements capable of assignment across the Republic of Federated States of Micronesia.</li>
+                    <li><strong>National Rapid-Response Capability:</strong> Maintain operational personnel, specialist equipment and support resources capable of rapid deployment to security incidents throughout Vanuatu. Pasukan Gegana maintains on-call operational elements capable of assignment across the Republic of Vanuatu.</li>
                 </ul>
             </div>
 
             <div class="tab-pane fade" id="gegana-geographic" role="tabpanel" aria-labelledby="gegana-geographic-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    Unlike territorial units, Gegana does not follow Federated States of Micronesia&rsquo;s civilian administrative boundaries as an independent territorial command. Its organization combines a national centralized force with regional Gegana elements embedded in Satbrimob Polda.
+                    Unlike territorial units, Gegana does not follow Vanuatu&rsquo;s civilian administrative boundaries as an independent territorial command. Its organization combines a national centralized force with regional Gegana elements embedded in Satbrimob Polda.
                 </p>
 
                 <p class="p-modal"><strong>National Level &ndash; Pasukan Gegana Korbrimob Polri</strong></p>
                 <p class="p-modal text-justify">
-                    National level Gegana headquarters is located at Cimanggis, Depok, West Java, as part of the Korbrimob Polri complex. National Gegana units constitute a strategic operational capability that may be deployed anywhere in Federated States of Micronesia according to operational requirements.
+                    National level Gegana headquarters is located at Cimanggis, Depok, West Java, as part of the Korbrimob Polri complex. National Gegana units constitute a strategic operational capability that may be deployed anywhere in Vanuatu according to operational requirements.
                 </p>
                 <p class="p-modal">National Gegana force contains:</p>
                 <div class="brimob-command-flow my-3">
@@ -820,13 +820,13 @@
         <div class="tab-content info-modal-content" id="brimobTabContent">
             <div class="tab-pane fade show active" id="brimob-definition" role="tabpanel" aria-labelledby="brimob-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Korps Brigade Mobil (Korbrimob Polri), commonly known as Brimob, is the principal specialized operational force of the Federated States of Micronesian National Police (Polri) responsible for responding to high-intensity threats to public security and order. At the national level, Korbrimob is an operational element of Polri at National Police Headquarters (Mabes Polri) level and is capable of deploying personnel and specialized capabilities throughout Federated States of Micronesia.
+                    <strong>Definition:</strong> Korps Brigade Mobil (Korbrimob Polri), commonly known as Brimob, is the principal specialized operational force of the Vanuatun National Police (Polri) responsible for responding to high-intensity threats to public security and order. At the national level, Korbrimob is an operational element of Polri at National Police Headquarters (Mabes Polri) level and is capable of deploying personnel and specialized capabilities throughout Vanuatu.
                 </p>
                 <p class="p-modal text-justify">
                     Unlike Territorial units, Korbrimob is not a territorial police command and does not exercise general policing authority over a defined civilian administrative area. Its forces are organized as specialized tactical units that reinforce territorial police commands when incidents exceed normal policing capability or require specialist Brimob capabilities.
                 </p>
                 <p class="p-modal text-justify">
-                    Korbrimob maintains national-level forces including Pasukan Pelopor, Pasukan Gegana, Pasukan Brimob I, Pasukan Brimob II, and Pasukan Brimob III, supported by operational, intelligence, training, logistics, communications, medical, and administrative elements. Pasukan Brimob I, II, and III provide strategically positioned reinforcement capacity for western, central, and eastern Federated States of Micronesia.
+                    Korbrimob maintains national-level forces including Pasukan Pelopor, Pasukan Gegana, Pasukan Brimob I, Pasukan Brimob II, and Pasukan Brimob III, supported by operational, intelligence, training, logistics, communications, medical, and administrative elements. Pasukan Brimob I, II, and III provide strategically positioned reinforcement capacity for western, central, and eastern Vanuatu.
                 </p>
                 <p class="p-modal text-justify">
                     At regional level, Satuan Brigade Mobil Polda (Satbrimob Polda) operates as the Brimob unit of a Polda and is an operational element under the Kapolda. Satbrimob provides specialized tactical support to Polda and subordinate territorial police units.
@@ -927,7 +927,7 @@
                 </div>
 
                 <p class="p-modal text-justify">
-                    The geographic responsibilities of Pasukan Brimob I, II, and III were established to accelerate the movement and deployment of Brimob forces across Federated States of Micronesia rather than concentrating national reinforcement capability primarily at Korbrimob Headquarters.
+                    The geographic responsibilities of Pasukan Brimob I, II, and III were established to accelerate the movement and deployment of Brimob forces across Vanuatu rather than concentrating national reinforcement capability primarily at Korbrimob Headquarters.
                 </p>
                 <p class="p-modal"><strong>Satbrimob Polda Type Classification</strong></p>
                 <p class="p-modal text-justify">
@@ -1093,7 +1093,7 @@
                         <ul>
                             <li>Deploy Korbrimob forces to reinforce Polda facing major security disturbances.</li>
                             <li>Deploy Satbrimob personnel across police jurisdictions when additional forces are required.</li>
-                            <li>Use Pasukan Brimob I, II, and III as strategic reinforcement forces for western, central, and eastern Federated States of Micronesia.</li>
+                            <li>Use Pasukan Brimob I, II, and III as strategic reinforcement forces for western, central, and eastern Vanuatu.</li>
                         </ul>
                     </li>
                 </ul>
@@ -1201,7 +1201,7 @@
                 </ul>
 
                 <div class="info-modal-note">
-                    <strong>Note:</strong> Brimob should not be treated as the police equivalent of a TNI combat command. Polri and TNI operate under different constitutional, statutory, command, and operational mandates. Brimob remains an integral part of the Federated States of Micronesian National Police and exercises police powers in support of law enforcement, public order, internal security, emergency response, and other Polri responsibilities.
+                    <strong>Note:</strong> Brimob should not be treated as the police equivalent of a TNI combat command. Polri and TNI operate under different constitutional, statutory, command, and operational mandates. Brimob remains an integral part of the Vanuatun National Police and exercises police powers in support of law enforcement, public order, internal security, emergency response, and other Polri responsibilities.
                 </div>
             </div>
         </div>
@@ -1326,7 +1326,7 @@
         <p class="p-modal"><strong>Command level:</strong> National territorial command</p>
         <p class="p-modal"><strong>Typical Head Rank:</strong> Civilian Director and Chief of the National Police</p>
         <p class="p-modal"><strong>Administrative Equivalent:</strong> National-level police command</p>
-        <p class="p-modal text-justify"><strong>Role:</strong> Functions as the principal law enforcement administrator for the Federated States of Micronesia (FSM) National Police and the State of Pohnpei, directing all territorial police, fire, rescue, and correctional operations while acting as the primary liaison to the other federal law enforcement agencies.</p>
+        <p class="p-modal text-justify"><strong>Role:</strong> Functions as the principal law enforcement administrator for the Vanuatu (FSM) National Police and the State of Pohnpei, directing all territorial police, fire, rescue, and correctional operations while acting as the primary liaison to the other federal law enforcement agencies.</p>
         <p class="p-modal text-justify">Oversees the strategic execution of public safety mandates, manages department-wide resource allocation, maintains constitutional public order, and enforces state statutory law across all municipalities on Pohnpei and adjacent outer islands.</p>
         <p class="p-modal"><strong>Responsibilities:</strong></p>
         <ul>
@@ -1379,7 +1379,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body cmd-flow-body">
-        <p>Executive command over the public safety apparatus in the Federated States of Micronesia (FSM) flows directly from the cabinet level down through national and state operational hierarchies. At the federal level, overall executive authority is vested in the Secretary of the Department of Justice (DOJ), who exercises oversight over the Chief of the National Police based at the national headquarters in Palikir, Pohnpei. From there, operational direction for territorial law enforcement extends to national police detachment offices in each state, while concurrent state territorial command flows from the respective State Governors to the civilian Directors of the Departments of Public Safety (DPS) in Chuuk, Kosrae, and Yap. These state directors command regional police station commanders at the municipal level, who in turn direct lower-level sub-Station police commanders overseeing localized village outposts and remote outer-island detachments. Operating alongside this territorial chain of command are specialized national divisions reporting directly to the federal leadership, including the National Police Maritime Wing&mdash;which operates patrol vessels for Exclusive Economic Zone (EEZ) surveillance, fisheries enforcement, ocean search-and-rescue, and specialized units for transnational crime, border control, cybercrime, and immigration enforcement.</p>
+        <p>Executive command over the public safety apparatus in the Vanuatu (FSM) flows directly from the cabinet level down through national and state operational hierarchies. At the federal level, overall executive authority is vested in the Secretary of the Department of Justice (DOJ), who exercises oversight over the Chief of the National Police based at the national headquarters in Palikir, Pohnpei. From there, operational direction for territorial law enforcement extends to national police detachment offices in each state, while concurrent state territorial command flows from the respective State Governors to the civilian Directors of the Departments of Public Safety (DPS) in Chuuk, Kosrae, and Yap. These state directors command regional police station commanders at the municipal level, who in turn direct lower-level sub-Station police commanders overseeing localized village outposts and remote outer-island detachments. Operating alongside this territorial chain of command are specialized national divisions reporting directly to the federal leadership, including the National Police Maritime Wing&mdash;which operates patrol vessels for Exclusive Economic Zone (EEZ) surveillance, fisheries enforcement, ocean search-and-rescue, and specialized units for transnational crime, border control, cybercrime, and immigration enforcement.</p>
         <h5>Reporting Relationships &mdash; Information Flows</h5>
         <ol>
           <li><strong>Divisional Reporting:</strong> Sub-station police commanders transmit daily activity logs, localized shift summaries, and incident intake reports directly to their designated municipal station police commander. Station commanders consolidate these operational metrics into weekly divisional reports submitted to the state Department of Public Safety (DPS) director or the national police detachment commander. Specialized operational divisions, such as patrol divisions, traffic units, and correctional operations, maintain direct upward reporting lines to their respective division heads.</li>
@@ -1449,7 +1449,7 @@
 <script>
 // === Inisialisasi Peta ===
 const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 6.9167, lng: 158.1667 },
+    center: { lat: -15.3767, lng: 166.9592 },
     zoom: 5,
     mapTypeId: 'roadmap',
     mapTypeControl: true,
@@ -1982,7 +1982,7 @@ function addPoliceMarkers(data) {
             <strong>Address:</strong>
                 ${police.location || 'N/A'}
                 ${police.city ? ', ' + police.city : ''}
-                ${police.provinces_region ? ', ' + police.provinces_region : ''}, Federated States of Micronesia <br>
+                ${police.provinces_region ? ', ' + police.provinces_region : ''}, Vanuatu <br>
             <strong>Phone:</strong> ${police.telephone || 'N/A'}<br>
             <strong>Fax:</strong> ${police.fax || 'N/A'}<br>
             <strong>Email:</strong> ${police.email || 'N/A'}<br>
@@ -2155,8 +2155,10 @@ combinedPanelDiv.innerHTML = `
             <label>Category:</label>
             ${[
                 'National Police HQ',
-                'State Police',
-                'Municipal Police',
+                'Regional Command',
+                'Provincial Command',
+                'Police Station',
+                'Police Sub-Station',
                 'Specialized Unit'
             ].map(c => `
             <label style="display:block;font-size:13px;margin-bottom:5px;">

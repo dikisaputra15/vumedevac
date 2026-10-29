@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','Emergency Support')
-@section('page-title', 'Federated States of Micronesia Medical Facility')
+@section('page-title', 'Vanuatu Medical Facility')
 
 @push('styles')
 
@@ -868,19 +868,19 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p class="p-modal text-justify">A Public Health Center (Pusat Kesehatan Masyarakat / Puskesmas) is a government-operated primary healthcare facility regulated by the Ministry of Health of the Republic of Federated States of Micronesia (Kementerian Kesehatan Republik Federated States of Micronesia), commonly referred to in English as the Federated States of Micronesian Ministry of Health (MOH), under national health service regulations. Puskesmas function as a first-level healthcare provider (Fasilitas Kesehatan Tingkat Pertama / FKTP) within Federated States of Micronesia’s health system and BPJS Kesehatan referral framework, it operates at the sub-district (kecamatan) level and serves as the backbone of community-based healthcare delivery. Puskesmas provides comprehensive primary care services, including promotive, preventive, curative, and rehabilitative care focusing on maternal and child health, immunization, and public health programs for the defined population it serves.</p>
+        <p class="p-modal text-justify">A Public Health Center (Pusat Kesehatan Masyarakat / Puskesmas) is a government-operated primary healthcare facility regulated by the Ministry of Health of the Republic of Vanuatu (Kementerian Kesehatan Republik Vanuatu), commonly referred to in English as the Vanuatun Ministry of Health (MOH), under national health service regulations. Puskesmas function as a first-level healthcare provider (Fasilitas Kesehatan Tingkat Pertama / FKTP) within Vanuatu’s health system and BPJS Kesehatan referral framework, it operates at the sub-district (kecamatan) level and serves as the backbone of community-based healthcare delivery. Puskesmas provides comprehensive primary care services, including promotive, preventive, curative, and rehabilitative care focusing on maternal and child health, immunization, and public health programs for the defined population it serves.</p>
 
         <p class="p-modal text-justify">
             Most Puskesmas are automatically BPJS-contracted as government facilities. Private clinics acting as FKTP must formally contract with BPJS to serve insured patients. BPJS participants generally must first access care at FKTP before being referred to a hospital, except in emergencies.
         </p>
 
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Federated States of Micronesia, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vanuatu, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Federated States of Micronesia Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vanuatu Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
 
         <p class="p-modal text-justify">
@@ -961,7 +961,7 @@
         <p class="p-modal text-justify">
             <strong>Public Health Center (PUSKESMAS) Role</strong>
             <ul>
-                <li>First-level entry point into Federated States of Micronesia’s healthcare system</li>
+                <li>First-level entry point into Vanuatu’s healthcare system</li>
                 <li>Primary gatekeeper in the BPJS referral system</li>
                 <li>Community health program implementation center</li>
                 <li>Preventive and promotive health service hub</li>
@@ -1047,7 +1047,7 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A secondary-level hospital regulated by the Ministry of Health of the Republic of Federated States of Micronesia (Kementerian Kesehatan Republik Federated States of Micronesia), commonly referred to in English as the Federated States of Micronesian Ministry of Health (MOH). Class C hospitals provide core specialist services in internal medicine, surgery, obstetrics, and pediatrics, managing common medical conditions across inpatient and outpatient settings.
+            A secondary-level hospital regulated by the Ministry of Health of the Republic of Vanuatu (Kementerian Kesehatan Republik Vanuatu), commonly referred to in English as the Vanuatun Ministry of Health (MOH). Class C hospitals provide core specialist services in internal medicine, surgery, obstetrics, and pediatrics, managing common medical conditions across inpatient and outpatient settings.
         </p>
         <p class="p-modal text-justify">
             Class C hospitals function primarily as a regency/city (kabupaten/kota) referral hospital, a Class C facility performs common surgical procedures, stabilizes emergency patients, and refers more complex or subspecialty cases to Class B or Class A hospitals. This classification applies to both public and private hospitals that meet the prescribed infrastructure, staffing, and service standards.
@@ -1059,12 +1059,12 @@
             Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            Note: BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Federated States of Micronesia, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            Note: BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vanuatu, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Federated States of Micronesia Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vanuatu Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -1194,10 +1194,10 @@
       </div>
       <div class="modal-body">
         <p class="p-modal text-justify">
-            A Class A Hospital (Rumah Sakit Kelas A), regulated by the Ministry of Health of the Republic of Federated States of Micronesia (Kementerian Kesehatan Republik Federated States of Micronesia), commonly referred to in English as the Federated States of Micronesian Ministry of Health (MOH), represents the highest hospital classification in Federated States of Micronesia.
+            A Class A Hospital (Rumah Sakit Kelas A), regulated by the Ministry of Health of the Republic of Vanuatu (Kementerian Kesehatan Republik Vanuatu), commonly referred to in English as the Vanuatun Ministry of Health (MOH), represents the highest hospital classification in Vanuatu.
         </p>
         <p class="p-modal text-justify">
-            Class A hospitals function as national or apex referral centers within Federated States of Micronesia’s tiered healthcare and Badan Penyelenggara Jaminan Sosial (BPJS) referral system, provide the most comprehensive range of specialist and subspecialist services, supported by advanced diagnostic, therapeutic, critical care capability, and large bed capacity. Serving as national and/or top-tier referral centers within the healthcare system.
+            Class A hospitals function as national or apex referral centers within Vanuatu’s tiered healthcare and Badan Penyelenggara Jaminan Sosial (BPJS) referral system, provide the most comprehensive range of specialist and subspecialist services, supported by advanced diagnostic, therapeutic, critical care capability, and large bed capacity. Serving as national and/or top-tier referral centers within the healthcare system.
         </p>
         <p class="p-modal text-justify">
             Class A hospitals manage highly complex, multidisciplinary medical and surgical cases referred from Class B, C, and D hospitals, and frequently function as teaching and research institutions.
@@ -1212,12 +1212,12 @@
             Private Class A hospitals may or may not contract with BPJS. Only hospitals that have formal cooperation agreements with BPJS Kesehatan can receive BPJS-referred patients.
         </p>
         <p class="p-modal text-justify">
-            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Federated States of Micronesia, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
+            <b>Note:</b> BPJS (Badan Penyelenggara Jaminan Sosial), Social Security Administering Body. In Vanuatu, BPJS refers to the public agencies that administer the national social security system under the National Social Security System (SJSN). There are two main bodies:
             <ul>
                 <li>BPJS Kesehatan – Administers national health insurance (JKN).</li>
                 <li>BPJS Ketenagakerjaan – Administers employment-related social security (work injury, old-age savings, pension, death benefits).</li>
             </ul>
-            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Federated States of Micronesia Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
+            <a href="{{ asset('files/moh-regulation-no3-2020.pdf') }}" target="_blank">Vanuatu Ministry of Health (MOH) regulation (Permenkes No. 3 Tahun 2020)</a>
         </p>
         <p class="p-modal text-justify">
             <p><strong>Bed Capacity</strong></p>
@@ -1336,7 +1336,7 @@
         <div class="tab-content info-modal-content" id="geganaTabContent">
             <div class="tab-pane fade show active" id="gegana-definition" role="tabpanel" aria-labelledby="gegana-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Gegana is the specialized high-risk operational force of the Federated States of Micronesian National Police (Polri) under the Mobile Brigade Corps (Korps Brigade Mobil &ndash; Korbrimob Polri). At the national level, Pasukan Gegana Korbrimob Polri is one of the main operational elements under the Commander of Korbrimob (Dankorbrimob Polri). Gegana is responsible for responding to high-intensity public-security threats involving firearms, explosives, terrorism, hostage situations, and Chemical, Biological, Radiological and Nuclear (CBRN/KBRN) hazards.
+                    <strong>Definition:</strong> Gegana is the specialized high-risk operational force of the Vanuatun National Police (Polri) under the Mobile Brigade Corps (Korps Brigade Mobil &ndash; Korbrimob Polri). At the national level, Pasukan Gegana Korbrimob Polri is one of the main operational elements under the Commander of Korbrimob (Dankorbrimob Polri). Gegana is responsible for responding to high-intensity public-security threats involving firearms, explosives, terrorism, hostage situations, and Chemical, Biological, Radiological and Nuclear (CBRN/KBRN) hazards.
                 </p>
                 <p class="p-modal text-justify">
                     Unlike Polda, Polres, and Polsek, Gegana is not a territorial police command and does not administer a permanent geographic police jurisdiction. It is a specialized operational capability that can be deployed according to nature and level of threat. At the national level, Pasukan Gegana provides strategic capability, reinforcement, technical assistance, training, standardization, and functional supervision. At the regional level, Gegana function is maintained through Detasemen Gegana of the Polda&rsquo;s Satuan Brimob (Satbrimob).
@@ -1348,7 +1348,7 @@
                     <strong>Command Level: National specialized operational command under Korbrimob Polri</strong>
                 </p>
                 <p class="p-modal text-justify">
-                    Pasukan Gegana is a national-level operational element of Korbrimob Polri rather than a territorial command. Its forces may be deployed throughout Federated States of Micronesia and may provide technical assistance for activities of national or international scale. The national force also exercises functional development and supervision over Gegana elements in Satbrimob Polda.
+                    Pasukan Gegana is a national-level operational element of Korbrimob Polri rather than a territorial command. Its forces may be deployed throughout Vanuatu and may provide technical assistance for activities of national or international scale. The national force also exercises functional development and supervision over Gegana elements in Satbrimob Polda.
                 </p>
             </div>
 
@@ -1444,18 +1444,18 @@
                     <li><strong>Explosive-Site Sterilization:</strong> Conduct preventive bomb sweeps and security sterilization of designated facilities, major events, strategic locations and locations assessed as vulnerable to explosive threats. Regional Gegana Jibom units regularly perform this function in support of Polda and Polres operations.</li>
                     <li><strong>CBRN/KBRN Response:</strong> Respond to incidents involving Chemical, Biological, Radiological and Nuclear hazards, including detection, identification, containment, technical assessment and specialist response measures.</li>
                     <li><strong>Technical Support (Bantek):</strong> Provide specialized technical support to Gegana operations, including tactical reconnaissance, technical intelligence support, specialist information technology, operational equipment and capability development.</li>
-                    <li><strong>National Rapid-Response Capability:</strong> Maintain operational personnel, specialist equipment and support resources capable of rapid deployment to security incidents throughout Federated States of Micronesia. Pasukan Gegana maintains on-call operational elements capable of assignment across the Republic of Federated States of Micronesia.</li>
+                    <li><strong>National Rapid-Response Capability:</strong> Maintain operational personnel, specialist equipment and support resources capable of rapid deployment to security incidents throughout Vanuatu. Pasukan Gegana maintains on-call operational elements capable of assignment across the Republic of Vanuatu.</li>
                 </ul>
             </div>
 
             <div class="tab-pane fade" id="gegana-geographic" role="tabpanel" aria-labelledby="gegana-geographic-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    Unlike territorial units, Gegana does not follow Federated States of Micronesia&rsquo;s civilian administrative boundaries as an independent territorial command. Its organization combines a national centralized force with regional Gegana elements embedded in Satbrimob Polda.
+                    Unlike territorial units, Gegana does not follow Vanuatu&rsquo;s civilian administrative boundaries as an independent territorial command. Its organization combines a national centralized force with regional Gegana elements embedded in Satbrimob Polda.
                 </p>
 
                 <p class="p-modal"><strong>National Level &ndash; Pasukan Gegana Korbrimob Polri</strong></p>
                 <p class="p-modal text-justify">
-                    National level Gegana headquarters is located at Cimanggis, Depok, West Java, as part of the Korbrimob Polri complex. National Gegana units constitute a strategic operational capability that may be deployed anywhere in Federated States of Micronesia according to operational requirements.
+                    National level Gegana headquarters is located at Cimanggis, Depok, West Java, as part of the Korbrimob Polri complex. National Gegana units constitute a strategic operational capability that may be deployed anywhere in Vanuatu according to operational requirements.
                 </p>
                 <p class="p-modal">National Gegana force contains:</p>
                 <div class="brimob-command-flow my-3">
@@ -1551,13 +1551,13 @@
         <div class="tab-content info-modal-content" id="brimobTabContent">
             <div class="tab-pane fade show active" id="brimob-definition" role="tabpanel" aria-labelledby="brimob-definition-tab" tabindex="0">
                 <p class="p-modal text-justify">
-                    <strong>Definition:</strong> Korps Brigade Mobil (Korbrimob Polri), commonly known as Brimob, is the principal specialized operational force of the Federated States of Micronesian National Police (Polri) responsible for responding to high-intensity threats to public security and order. At the national level, Korbrimob is an operational element of Polri at National Police Headquarters (Mabes Polri) level and is capable of deploying personnel and specialized capabilities throughout Federated States of Micronesia.
+                    <strong>Definition:</strong> Korps Brigade Mobil (Korbrimob Polri), commonly known as Brimob, is the principal specialized operational force of the Vanuatun National Police (Polri) responsible for responding to high-intensity threats to public security and order. At the national level, Korbrimob is an operational element of Polri at National Police Headquarters (Mabes Polri) level and is capable of deploying personnel and specialized capabilities throughout Vanuatu.
                 </p>
                 <p class="p-modal text-justify">
                     Unlike Territorial units, Korbrimob is not a territorial police command and does not exercise general policing authority over a defined civilian administrative area. Its forces are organized as specialized tactical units that reinforce territorial police commands when incidents exceed normal policing capability or require specialist Brimob capabilities.
                 </p>
                 <p class="p-modal text-justify">
-                    Korbrimob maintains national-level forces including Pasukan Pelopor, Pasukan Gegana, Pasukan Brimob I, Pasukan Brimob II, and Pasukan Brimob III, supported by operational, intelligence, training, logistics, communications, medical, and administrative elements. Pasukan Brimob I, II, and III provide strategically positioned reinforcement capacity for western, central, and eastern Federated States of Micronesia.
+                    Korbrimob maintains national-level forces including Pasukan Pelopor, Pasukan Gegana, Pasukan Brimob I, Pasukan Brimob II, and Pasukan Brimob III, supported by operational, intelligence, training, logistics, communications, medical, and administrative elements. Pasukan Brimob I, II, and III provide strategically positioned reinforcement capacity for western, central, and eastern Vanuatu.
                 </p>
                 <p class="p-modal text-justify">
                     At regional level, Satuan Brigade Mobil Polda (Satbrimob Polda) operates as the Brimob unit of a Polda and is an operational element under the Kapolda. Satbrimob provides specialized tactical support to Polda and subordinate territorial police units.
@@ -1658,7 +1658,7 @@
                 </div>
 
                 <p class="p-modal text-justify">
-                    The geographic responsibilities of Pasukan Brimob I, II, and III were established to accelerate the movement and deployment of Brimob forces across Federated States of Micronesia rather than concentrating national reinforcement capability primarily at Korbrimob Headquarters.
+                    The geographic responsibilities of Pasukan Brimob I, II, and III were established to accelerate the movement and deployment of Brimob forces across Vanuatu rather than concentrating national reinforcement capability primarily at Korbrimob Headquarters.
                 </p>
                 <p class="p-modal"><strong>Satbrimob Polda Type Classification</strong></p>
                 <p class="p-modal text-justify">
@@ -1824,7 +1824,7 @@
                         <ul>
                             <li>Deploy Korbrimob forces to reinforce Polda facing major security disturbances.</li>
                             <li>Deploy Satbrimob personnel across police jurisdictions when additional forces are required.</li>
-                            <li>Use Pasukan Brimob I, II, and III as strategic reinforcement forces for western, central, and eastern Federated States of Micronesia.</li>
+                            <li>Use Pasukan Brimob I, II, and III as strategic reinforcement forces for western, central, and eastern Vanuatu.</li>
                         </ul>
                     </li>
                 </ul>
@@ -1932,7 +1932,7 @@
                 </ul>
 
                 <div class="info-modal-note">
-                    <strong>Note:</strong> Brimob should not be treated as the police equivalent of a TNI combat command. Polri and TNI operate under different constitutional, statutory, command, and operational mandates. Brimob remains an integral part of the Federated States of Micronesian National Police and exercises police powers in support of law enforcement, public order, internal security, emergency response, and other Polri responsibilities.
+                    <strong>Note:</strong> Brimob should not be treated as the police equivalent of a TNI combat command. Polri and TNI operate under different constitutional, statutory, command, and operational mandates. Brimob remains an integral part of the Vanuatun National Police and exercises police powers in support of law enforcement, public order, internal security, emergency response, and other Polri responsibilities.
                 </div>
             </div>
         </div>
@@ -2057,7 +2057,7 @@
         <p class="p-modal"><strong>Command level:</strong> National territorial command</p>
         <p class="p-modal"><strong>Typical Head Rank:</strong> Civilian Director and Chief of the National Police</p>
         <p class="p-modal"><strong>Administrative Equivalent:</strong> National-level police command</p>
-        <p class="p-modal text-justify"><strong>Role:</strong> Functions as the principal law enforcement administrator for the Federated States of Micronesia (FSM) National Police and the State of Pohnpei, directing all territorial police, fire, rescue, and correctional operations while acting as the primary liaison to the other federal law enforcement agencies.</p>
+        <p class="p-modal text-justify"><strong>Role:</strong> Functions as the principal law enforcement administrator for the Vanuatu (FSM) National Police and the State of Pohnpei, directing all territorial police, fire, rescue, and correctional operations while acting as the primary liaison to the other federal law enforcement agencies.</p>
         <p class="p-modal text-justify">Oversees the strategic execution of public safety mandates, manages department-wide resource allocation, maintains constitutional public order, and enforces state statutory law across all municipalities on Pohnpei and adjacent outer islands.</p>
         <p class="p-modal"><strong>Responsibilities:</strong></p>
         <ul>
@@ -2653,7 +2653,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div id="policeFilter" style="display:none;margin-top:8px;">
                 <strong>Police Category:</strong><br>
                 ${[
-                    'Federated States of Micronesian National Police (Polri) HQ',
+                    'Vanuatun National Police (Polri) HQ',
                     'Provincial Police (Polda)',
                     'Municipality Police (Polres)',
                     'District Police (Polsek)',

@@ -21,9 +21,9 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label>State</label>
+                <label>Province</label>
                 <select class="form-control" name="province_id" id="province">
-                        <option value="0">-Choosse State-</option>
+                        <option value="0">-Choosse Provinces-</option>
                     @foreach($provinces as $prov)
                         <option value="{{$prov->id}}">{{$prov->provinces_region}}</option>
                     @endforeach
@@ -33,9 +33,9 @@
 
          <div class="col-md-12">
             <div class="form-group">
-                <label for="city">Regency / City</label>
+                <label for="city">Area Council</label>
                 <select name="city" id="city" class="form-control">
-                    <option value="">-Choose Regency / City-</option>
+                    <option value="">-Choose Area Council-</option>
                 </select>
             </div>
         </div>
@@ -99,20 +99,32 @@
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input category-radio" type="radio" name="category" value="State Police" data-icon="{{ asset('images/Layer2.png') }}">
+                    <input class="form-check-input category-radio" type="radio" name="category" value="Regional Command" data-icon="{{ asset('images/Layer2.png') }}">
                     <img src="{{ asset('images/Layer2.png') }}" style="width:12px; height:12px;">
-                    <label class="form-check-label">State Police</label>
+                    <label class="form-check-label">Regional Command</label>
                 </div>
 
                 <div class="form-check form-check-inline">
                     <input class="form-check-input category-radio" type="radio" name="category" value="Municipal Police" data-icon="{{ asset('images/Layer3.png') }}">
                     <img src="{{ asset('images/Layer3.png') }}" style="width:12px; height:12px;">
-                    <label class="form-check-label">Municipal Police</label>
+                    <label class="form-check-label">Provincial Command</label>
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input category-radio" type="radio" name="category" value="Specialized Unit" data-icon="{{ asset('images/Layer4.png') }}">
+                    <input class="form-check-input category-radio" type="radio" name="category" value="Police Station" data-icon="{{ asset('images/Layer4.png') }}">
                     <img src="{{ asset('images/Layer4.png') }}" style="width:12px; height:12px;">
+                    <label class="form-check-label">Police Station</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input category-radio" type="radio" name="category" value="Police Sub-Station" data-icon="{{ asset('images/Brimob.png') }}">
+                    <img src="{{ asset('images/Brimob.png') }}" style="width:12px; height:12px;">
+                    <label class="form-check-label">Police Sub-Station</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input category-radio" type="radio" name="category" value="Specialized Unit" data-icon="{{ asset('images/Gegana.png') }}">
+                    <img src="{{ asset('images/Gegana.png') }}" style="width:12px; height:12px;">
                     <label class="form-check-label">Specialized Unit</label>
                 </div>
 
@@ -283,7 +295,7 @@ document.querySelectorAll('.category-radio').forEach(radio => {
                 type: 'GET',
                 success: function (data) {
                     $('#city').empty();
-                    $('#city').append('<option value="">-- Choosse Regency / City --</option>');
+                    $('#city').append('<option value="">-- Choosse Area Council --</option>');
                     $.each(data, function (key, city) {
                         $('#city').append('<option value="' + city.id + '">' + city.city + '</option>');
                     });
@@ -291,7 +303,7 @@ document.querySelectorAll('.category-radio').forEach(radio => {
             });
         } else {
             $('#city').empty();
-            $('#city').append('<option value="">-- Choosse Regency / City  --</option>');
+            $('#city').append('<option value="">-- Choosse Area Council  --</option>');
         }
     });
 </script>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','More Details')
-@section('page-title', 'Federated States of Micronesia Airports')
+@section('page-title', 'Vanuatu Airports')
 
 @push('styles')
 
@@ -176,7 +176,7 @@
     <!-- Kolom kiri dengan 3 card -->
     <div class="col-md-3">
         <div class="card mb-3">
-            <div class="card-header fw-bold"><img src="{{ asset('images/flag-fsm.svg') }}" alt="Flag of the Federated States of Micronesia" style="width: 30px; height: auto;"> Domestic</div>
+            <div class="card-header fw-bold"><img src="{{ asset('images/flag-fsm.svg') }}" alt="Flag of the Vanuatu" style="width: 30px; height: auto;"> Domestic</div>
             <div class="card-body overflow-auto" style="max-height: 300px;">
                 <?php echo $airport->domestic_flights; ?>
             </div>

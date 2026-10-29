@@ -184,7 +184,7 @@
                         <strong>Address:</strong>
                         {{ $embassy->location }},
                         {{ $city->city }},
-                        {{ $province->provinces_region }}, Federated States of Micronesia
+                        {{ $province->provinces_region }}, Vanuatu
                     </p>
                     <p>
                         <strong>Latitude:</strong> {{ $embassy->latitude }}

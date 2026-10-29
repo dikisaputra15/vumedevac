@@ -15,10 +15,12 @@ use Exception;
 class PoliceController extends Controller
 {
     private const CATEGORY_ALIASES = [
-        'National Police HQ' => ['National Police HQ', 'Federated States of Micronesian National Police (Polri) HQ'],
-        'State Police' => ['State Police'],
-        'Municipal Police' => ['Municipal Police', 'Municipality Police (Polres)'],
-        'Specialized Unit' => ['Specialized Unit', 'District Police (Polsek)'],
+        'National Police HQ' => ['National Police HQ'],
+        'Regional Command' => ['Regional Command'],
+        'Provincial Command' => ['Provincial Command'],
+        'Police Station' => ['Police Station'],
+        'Police Sub-Station' => ['Police Sub-Station'],
+        'Specialized Unit' => ['Specialized Unit'],
     ];
 
      public function index(Request $request)
@@ -170,8 +172,10 @@ class PoliceController extends Controller
         $polices = $query->get();
         $categoryCounts = [
             'National Police HQ' => 0,
-            'State Police' => 0,
-            'Municipal Police' => 0,
+            'Regional Command' => 0,
+            'Provincial Command' => 0,
+            'Police Station' => 0,
+            'Police Sub-Station' => 0,
             'Specialized Unit' => 0,
         ];
 

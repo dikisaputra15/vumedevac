@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','More Details')
-@section('page-title', 'Federated States of Micronesia Airports')
+@section('page-title', 'Vanuatu Airports')
 
 @push('styles')
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -195,7 +195,7 @@
                 <div class="card-header fw-bold"><img src="{{ asset('images/icon-location.png') }}" style="width: 18px; height: 24px;"> Location</div>
                 <div class="card-body overflow-auto">
                     <p><strong>Address:</strong>
-                        {{ $airport->address }}, {{ $city->city }}, {{ $province->provinces_region }}, Federated States of Micronesia
+                        {{ $airport->address }}, {{ $city->city }}, {{ $province->provinces_region }}, Vanuatu
                     </p>
                     <p><strong>Latitude:</strong> {{ $airport->latitude }} </p>
                     <p><strong>Longitude:</strong> {{ $airport->longitude }} </p>

@@ -40,7 +40,7 @@ class HospitalFactory extends Factory
             'nearest_accommodations' => implode(', ', $this->faker->randomElements(
                 [$this->faker->company, $this->faker->company, $this->faker->company], rand(2, 3)
             )),
-            'latitude' => $this->faker->latitude(1.0, 10.0), // Federated States of Micronesia
+            'latitude' => $this->faker->latitude(1.0, 10.0), // Vanuatu
             'longitude' => $this->faker->longitude(137.0, 163.0),
             'inpatient_services' => $this->faker->randomElement(['Yes', 'No']),
             'outpatient_services' => $this->faker->randomElement(['Yes', 'No']),

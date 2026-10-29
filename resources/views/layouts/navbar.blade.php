@@ -4,7 +4,7 @@
             <img src="{{ asset('images/Logo-TCMT-black.png') }}" alt="CMT Logo" class="brand-image" style="width: 348px;">
         </a>
 
-        <h5 class="mb-0 ml-2" style="font-size:42px; text-transform:uppercase; font-family:arial;">Federated States of Micronesia</h5>
+        <h5 class="mb-0 ml-2" style="font-size:42px; text-transform:uppercase; font-family:arial;">Vanuatu</h5>
 
         <ul class="navbar-nav d-flex flex-row align-items-center">
 

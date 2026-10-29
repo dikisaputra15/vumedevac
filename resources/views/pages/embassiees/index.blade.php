@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title','Embassiees')
-@section('page-title', 'Federated States of Micronesia Embassiees')
+@section('page-title', 'Vanuatu Embassiees')
 
 @push('styles')
 
@@ -298,7 +298,7 @@
 <script>
 // === Inisialisasi Peta ===
 const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 6.9167, lng: 158.1667 },
+    center: { lat: -15.3767, lng: 166.9592 },
     zoom: 6,
     mapTypeId: 'roadmap',
     mapTypeControl: true,
@@ -826,7 +826,7 @@ function addEmbassyMarkers(data) {
             <strong>Address:</strong>
                 ${embassy.location || 'N/A'}
                 ${embassy.city ? ', ' + embassy.city : ''}
-                ${embassy.provinces_region ? ', ' + embassy.provinces_region : ''}, Federated States of Micronesia <br>
+                ${embassy.provinces_region ? ', ' + embassy.provinces_region : ''}, Vanuatu <br>
             <strong>Phone:</strong> ${embassy.telephone || 'N/A'}<br>
             <strong>Fax:</strong> ${embassy.fax || 'N/A'}<br>
             <strong>Email:</strong> ${embassy.email || 'N/A'}<br>

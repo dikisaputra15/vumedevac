@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Airports')
-@section('page-title', 'Federated States of Micronesia Airports')
+@section('page-title', 'Vanuatu Airports')
 
 @push('styles')
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -471,7 +471,7 @@
 <script>
 // === Inisialisasi Peta ===
 const map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 6.9167, lng: 158.1667 },
+    center: { lat: -15.3767, lng: 166.9592 },
     zoom: 5,
     mapTypeId: 'roadmap',
     mapTypeControl: true,
@@ -1000,7 +1000,7 @@ function addAirportMarkers(data) {
             <strong>Address:</strong>
                 ${airport.address || 'N/A'}
                 ${airport.city_name ? ', ' + airport.city_name : ''}
-                ${airport.province_name ? ', ' + airport.province_name : ''}, Federated States of Micronesia <br>
+                ${airport.province_name ? ', ' + airport.province_name : ''}, Vanuatu <br>
             <strong>Website:</strong> ${airport.website || 'N/A'} <br>
         `;
 

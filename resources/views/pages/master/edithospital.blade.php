@@ -29,7 +29,7 @@
 
         <div class="col-md-12">
             <div class="form-group">
-                <label>State</label>
+                <label>Province</label>
                 <select class="form-control" name="province_id" id="province">
                     <?php
                         foreach ($provinces as $prov) {
@@ -51,7 +51,7 @@
 
         <div class="col-md-12">
             <div class="form-group">
-                <label>Edit Municipality</label>
+                <label>Edit Area Council</label>
                 <select class="form-control" name="city" id="city">
                     <?php
                         foreach ($cities as $city) {
@@ -88,11 +88,17 @@
             <div class="form-group">
                 <label>Edit Facility Level</label>
                 <select class="form-control" name="facility_level">
-                    <option value="Hospital" {{ old('facility_level', $hospital->facility_level ?? '') == 'Hospital' ? 'selected' : '' }}>
-                        Hospital
+                    <option value="National Referral Hospital" {{ old('facility_level', $hospital->facility_level ?? '') == 'National Referral Hospital' ? 'selected' : '' }}>
+                        National Referral Hospital
                     </option>
-                    <option value="Clinic / Health Center" {{ old('facility_level', $hospital->facility_level ?? '') == 'Clinic / Health Center' ? 'selected' : '' }}>
-                        Clinic / Health Center
+                    <option value="Regional Referral Hospital" {{ old('facility_level', $hospital->facility_level ?? '') == 'Regional Referral Hospital' ? 'selected' : '' }}>
+                        Regional Referral Hospital
+                    </option>
+                    <option value="Provincial Hospital" {{ old('facility_level', $hospital->facility_level ?? '') == 'Provincial Hospital' ? 'selected' : '' }}>
+                        Provincial Hospital
+                    </option>
+                    <option value="Clinic / Health Centre" {{ old('facility_level', $hospital->facility_level ?? '') == 'Clinic / Health Centre' ? 'selected' : '' }}>
+                        Clinic / Health Centre
                     </option>
                 </select>
             </div>
@@ -134,8 +140,10 @@
 
                 @php
                     $icons = [
-                        ['url' => 'https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png', 'label' => 'Hospital'],
-                        ['url' => 'https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-green.png', 'label' => 'Clinic / Health Center'],
+                        ['url' => 'https://pg.concordreview.com/wp-content/uploads/2025/01/hospital_pin-blue.png', 'label' => 'National Referral Hospital'],
+                        ['url' => 'https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-purple.png', 'label' => 'Regional Referral Hospital'],
+                        ['url' => 'https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-green.png', 'label' => 'Provincial Hospital'],
+                        ['url' => 'https://id.concordreview.com/wp-content/plugins/w2gm/resources/images/map_icons/icons/_new/hospital_pin-tosca.png', 'label' => 'Clinic / Health Centre'],
                     ];
                 @endphp
 
@@ -1018,7 +1026,7 @@
                 type: 'GET',
                 success: function (data) {
                     $('#city').empty();
-                    $('#city').append('<option value="">-- Choosse Municipality --</option>');
+                    $('#city').append('<option value="">-- Choosse Area Council --</option>');
                     $.each(data, function (key, city) {
                         $('#city').append('<option value="' + city.id + '">' + city.city + '</option>');
                     });
@@ -1026,7 +1034,7 @@
             });
         } else {
             $('#city').empty();
-            $('#city').append('<option value="">-- Choosse Municipality  --</option>');
+            $('#city').append('<option value="">-- Choosse Area Council  --</option>');
         }
     });
 </script>
